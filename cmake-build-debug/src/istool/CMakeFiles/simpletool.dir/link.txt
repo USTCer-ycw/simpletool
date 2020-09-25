@@ -1,0 +1,1 @@
+/usr/bin/c++  -o2 -fpermissive -fPIC -finline-limit=1000 -DNDEBUG  -rdynamic CMakeFiles/simpletool.dir/simpletool.cc.o  -o ../../bin/simpletool   -L/home/yaochuanwang/CLionProjects/simpletool/lib  -Wl,-rpath,/home/yaochuanwang/CLionProjects/simpletool/lib ../isconfig/libconfig.a ../isutility/libutility.a ../istinyxml2/libtinyxml2.a -lpthread -lrt 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <SysPath Id="1">
+        <BegTime>202007130930</BegTime>
+        <EndTime>202007131030</EndTime>
+        <SrcDir>/home/hvate/haitong/htools/logfile/istone</SrcDir>
+        <DstDir>/home/hvate/haitong/htools/logfile/haitong</DstDir>
+    </SysPath>
+</configuration>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simpletool"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\istool\;CMake Files\src\isconfig\;CMake Files\src\isutility\;CMake Files\src\istinyxml2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpletool">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/bin/simpletool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 simpletool"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpletool/fast">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/bin/simpletool" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 simpletool/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istool/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="config">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/libconfig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 config"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="config/fast">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/libconfig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 config/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isconfig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/libutility.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 utility"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utility/fast">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/libutility.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 utility/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/isutility/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml2">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/libtinyxml2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTINYXML2_EXPORT"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 tinyxml2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tinyxml2/fast">
+				<Option output="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/libtinyxml2.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DTINYXML2_EXPORT"/>
+					<Add option="-DNOMINMAX"/>
+					<Add option="-DUSE_DL_PREFIX"/>
+					<Add option="-D__LINUX__"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/include"/>
+					<Add directory="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 tinyxml2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/yaochuanwang/CLionProjects/simpletool/cmake-build-debug/src/istinyxml2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/ConfigSetting.cc">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/ConfigSetting.h">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/PathHelper.cc">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/PathHelper.h">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/XMLSysPathInfoHandler.cc">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/XMLSysPathInfoHandler.h">
+			<Option target="config"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2/tinyxml2.cpp">
+			<Option target="tinyxml2"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2/tinyxml2.h">
+			<Option target="tinyxml2"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/istool/simpletool.cc">
+			<Option target="simpletool"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/AsyncLogging.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/AsyncLogging.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Compatible.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/CountDownLatch.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/CountDownLatch.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Date.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Date.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/FileUtil.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/FileUtil.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/LogFile.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/LogFile.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/LogStream.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/LogStream.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Logging.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Logging.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Semaphore.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Semaphore.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Thread.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Thread.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Timestamp.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Timestamp.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Types.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/Utility.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/WeakCallback.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/itoa.cc">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/itoa.h">
+			<Option target="utility"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/istool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\istool\"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\isconfig\"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/isutility/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\isutility\"/>
+		</Unit>
+		<Unit filename="/home/yaochuanwang/CLionProjects/simpletool/src/istinyxml2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\istinyxml2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

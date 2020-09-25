@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutility.a  CMakeFiles/utility.dir/Date.cc.o CMakeFiles/utility.dir/FileUtil.cc.o CMakeFiles/utility.dir/LogFile.cc.o CMakeFiles/utility.dir/Logging.cc.o CMakeFiles/utility.dir/LogStream.cc.o CMakeFiles/utility.dir/Timestamp.cc.o CMakeFiles/utility.dir/Thread.cc.o CMakeFiles/utility.dir/itoa.cc.o CMakeFiles/utility.dir/AsyncLogging.cc.o CMakeFiles/utility.dir/Semaphore.cc.o CMakeFiles/utility.dir/CountDownLatch.cc.o
+/usr/bin/ranlib libutility.a
