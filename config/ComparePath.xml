@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <SysPath Id="1">
+    <TimeAndPath Id="1">
 		<FullTime>1</FullTime>
         <BegTime>202007130930</BegTime>
         <EndTime>202007131030</EndTime>
         <SrcDir>/home/hvate/haitong/htools/logfile/istone</SrcDir>
         <DstDir>/home/hvate/haitong/htools/logfile/haitong</DstDir>
-    </SysPath>
-    <SysPath Id="2">
+    </TimeAndPath>
+    <MarketType Id="2">
         <Market>shanghai</Market>
-    </SysPath>
-    <SysPath Id="3">
+    </MarketType>
+    <StockType Id="3">
 		<IsFullMarket>1</IsFullMarket>
 		<StockCount>3</StockCount>
         <StockCode>000001,000002,000003</StockCode>
-    </SysPath>
-    <SysPath Id="4">
-		<MarketKind>1</MarketKind>
-		<MarketKindCount>2</MarketKindCount>
-        <Kind1>sanp</Kind1>
-        <Kind2>order</Kind2>
-    </SysPath>
-    </SysPath>
+    </StockType>
+    <QuoteType Id="4">
+	<MarketKind>1</MarketKind>
+	<MarketKindCount>2</MarketKindCount>
+        <Kind>sanp,order</Kind1>
+    </QuoteType>
 </configuration>

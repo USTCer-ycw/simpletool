@@ -53,6 +53,7 @@ void ConfigSetting::initCompare()
 void ConfigSetting::initCompareConfig(const string& path)
 {
 	XMLSysPathInfoHandler* sysPathInfo = new XMLSysPathInfoHandler();
+//	sysPathInfo->print();
 	bool ret = sysPathInfo -> LoadXMLForCompare(path.c_str());
 	if (!ret)
 	{

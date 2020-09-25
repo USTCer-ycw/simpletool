@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../src/isconfig/ConfigSetting.h
+string
+-
+
 /home/yaochuanwang/CLionProjects/simpletool/src/istool/simpletool.cc
 iostream
 -
+src/isconfig/ConfigSetting.h
+/home/yaochuanwang/CLionProjects/simpletool/src/istool/src/isconfig/ConfigSetting.h
 

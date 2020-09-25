@@ -1,11 +1,13 @@
-set(config_srcs
-	PathHelper.h
-	PathHelper.cc
-	ConfigSetting.h
-	ConfigSetting.cc
-	XMLSysPathInfoHandler.h
-	XMLSysPathInfoHandler.cc
-  )
+#set(config_srcs
+#	PathHelper.h
+#	PathHelper.cc
+#	ConfigSetting.h
+#	ConfigSetting.cc
+#	XMLSysPathInfoHandler.h
+#	XMLSysPathInfoHandler.cc
+#  )
+
+aux_source_directory(. config_srcs)
 
 include_directories(${PROJECT_SOURCE_DIR})
 include_directories(${PROJECT_SOURCE_DIR}/include)

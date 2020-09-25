@@ -10,17 +10,17 @@
 string
 -
 
-../src/isconfig/PathHelper.h
+../src/isconfig/DateStructure.h
 vector
 -
 string
 -
-src/isutility/NonCopyAble.h
-../src/isconfig/src/isutility/NonCopyAble.h
 
 ../src/isconfig/XMLSysPathInfoHandler.h
-string
+sstream
 -
+src/isconfig/DateStructure.h
+../src/isconfig/src/isconfig/DateStructure.h
 src/istinyxml2/tinyxml2.h
 ../src/isconfig/src/istinyxml2/tinyxml2.h
 src/isutility/NonCopyAble.h
@@ -329,20 +329,6 @@ src/isconfig/ConfigSetting.h
 /home/yaochuanwang/CLionProjects/simpletool/src/isconfig/src/isconfig/ConfigSetting.h
 src/isconfig/XMLSysPathInfoHandler.h
 /home/yaochuanwang/CLionProjects/simpletool/src/isconfig/src/isconfig/XMLSysPathInfoHandler.h
-
-/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/PathHelper.cc
-dirent.h
--
-string.h
--
-sys/types.h
--
-iostream
--
-src/isconfig/PathHelper.h
-/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/src/isconfig/PathHelper.h
-src/isconfig/ConfigSetting.h
-/home/yaochuanwang/CLionProjects/simpletool/src/isconfig/src/isconfig/ConfigSetting.h
 
 /home/yaochuanwang/CLionProjects/simpletool/src/isconfig/XMLSysPathInfoHandler.cc
 src/isutility/Logging.h

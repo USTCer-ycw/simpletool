@@ -122,7 +122,7 @@ bool XMLSysPathInfoHandler::LoadQuoteType(const char *xmlPath)
     tinyxml2::XMLElement* sysPathNode = root_->FirstChildElement("QuoteType");
     if (sysPathNode != nullptr)
     {
-        comparePathInfo_->marketKind_ = sysPathNode->FirstChildElement("MarketKind")->GetText();
+        comparePathInfo_->marketKind_ = sysPathNode->FirstChildElement("FullMarketKind")->GetText();
         if (comparePathInfo_->marketKind_ == "1")
         {
             comparePathInfo_->marketKindCount_ = 0;

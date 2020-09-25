@@ -2,43 +2,29 @@
 #ifndef _ISHTOOL_CONFIG_XMLSYSPATHINFOHANDLE_H_
 #define _ISHTOOL_CONFIG_XMLSYSPATHINFOHANDLE_H_
 
-#include <string>
+
 #include <sstream>
-#include <vector>
+
+#include "src/isconfig/DateStructure.h"
 #include "src/istinyxml2/tinyxml2.h" 
 #include "src/isutility/NonCopyAble.h"
 
 using namespace istool;
 using namespace tinyxml2;
 using namespace istool::isutility;
-using std::string;
+using namespace Data;
 using std::stringstream;
-using std::vector;
+
 
 namespace Simpletool
 {
-    struct XMLComparePathInfo
+
+    const int size_ = 10;
+    template <int size>
+    struct test
     {
-        string fullTime_;
-        string begTime_;
-        string endTime_;
-        string compareSrcDir_;
-        string compareDstDir_;
 
-        string market_;
-        string isFullMarket_;
-        int stockCount_;
-        string stockCode_;
-
-        string marketKind_;
-        int marketKindCount_;
-
-        string kinds;
-
-        vector<string> kindVec;
-        vector<string> stockCodeVec;
     };
-
 
     class XMLSysPathInfoHandler : public NonCopyable
     {
@@ -53,13 +39,22 @@ namespace Simpletool
         bool LoadStockType(const char* xmlPath);
         bool LoadQuoteType(const char* xmlPath);
     public:
-
-
+//        void print()
+//        {
+//            string a;
+//            std::printf("%d\n",sizeof(a));
+//            std::printf("%d\n",sizeof(timeAndPath));
+//            printf("%d\n",sizeof(marketType));
+//            printf("%d\n",sizeof(stockType));
+//            printf("%d\n",sizeof(quoteType));
+//        }
         XMLComparePathInfo* GetComparePathInfo() const { return comparePathInfo_; }
     private:
         XMLComparePathInfo* comparePathInfo_;
         tinyxml2::XMLElement* root_;
         tinyxml2::XMLDocument doc_;
+        bool b;
+        stockType<b> stockType_;
     };
 }
 
